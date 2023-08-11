@@ -37,7 +37,7 @@ This project implements a Weather API using Flask and MongoDB to store and retri
 
 ## Screenshots
 
-![Screenshot 1](/Assignment_3/output/Weather%20API%20request%20%20call.png)
+![Screenshot 1](/Assignment_3/output/WeatherAPIrequestcall.png)
 *Requesting weather data for Hyderabad, India.*
 
 ![Screenshot 1](/Assignment_3/output/Retrieving%20Data%20from%20mongodb.png)
