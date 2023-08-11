@@ -44,7 +44,7 @@ The `weather_retrieval.py` module provides a method to request weather data and 
 ## Screenshots
 
 ![Screenshot 1](/Assignment_3/output/Weather%20API%20request%20%20call.png)
-*Logging events and storing weather data.*
+*Requesting weather data for Hyderabad, India..*
 
 ![Screenshot 2](/Assignment_3/output/sample%20record%20visualization.png)
 *Sample DB record visualization .*
