@@ -19,7 +19,7 @@ This project implements a Weather API using Flask and MongoDB to store and retri
 1. Clone this repository.
 2. Install dependencies: `pip install -r requirements.txt`.
 3. Configure MongoDB connection in the app.
-4. Run the Flask app: `python app.py`.
+4. Run the Flask app: `python main.py`.
 
 ## API Endpoints
 
