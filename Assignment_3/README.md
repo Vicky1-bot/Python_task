@@ -46,3 +46,9 @@ This project implements a Weather API using Flask and MongoDB to store and retri
 ![Screenshot 3](/Assignment_3/output/sample%20record%20visualization.png)
 *Sample DB record visualization for chennai, India.*
 
+## License
+
+This project is licensed under the MIT License.
+
+---
+
