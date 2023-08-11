@@ -29,7 +29,7 @@ The `main.py` module provides a method to request weather data and store it in M
 
 ### How to Use
 
-1. Call the `request_and_store_weather_data` method with desired parameters.
+1. Call the `weather_data` method with desired parameters.
 2. Observe the log messages and verify data in MongoDB.
 
 ## API Endpoints
