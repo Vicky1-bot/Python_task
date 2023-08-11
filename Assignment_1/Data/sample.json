@@ -1,0 +1,19 @@
+{
+    "_id": {"$oid": "64d4c263202a834cc61d2cbf"},
+    "location": {
+        "name": "Chennai",
+        "region": "Tamil Nadu",
+        "country": "India"
+    },
+    "current": {
+        "last_updated_epoch": 1691664300,
+        "last_updated": "2023-08-10 16:15",
+        "temp_c": 28.0,
+        "temp_f": 82.4,
+        "is_day": 1,
+        "condition": {
+            "text": "Moderate or heavy rain with thunder"
+        },
+        "humidity": 84
+    }
+}
