@@ -25,13 +25,12 @@ This project introduces a module for retrieving weather data, incorporating logg
 
 ### Weather Data Retrieval and Storage
 
-The `weather_retrieval.py` module provides a method to request weather data and store it in MongoDB. Logging is integrated for effective event monitoring.
+The `main.py` module provides a method to request weather data and store it in MongoDB. Logging is integrated for effective event monitoring.
 
 ### How to Use
 
-1. Import the `weather_retrieval` module.
-2. Call the `request_and_store_weather_data` method with desired parameters.
-3. Observe the log messages and verify data in MongoDB.
+1. Call the `request_and_store_weather_data` method with desired parameters.
+2. Observe the log messages and verify data in MongoDB.
 
 ## API Endpoints
 
