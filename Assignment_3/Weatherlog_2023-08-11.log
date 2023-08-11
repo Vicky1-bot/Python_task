@@ -4,5 +4,14 @@ INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 188-840-680
+DEBUG:logger_setup:Received request to /weather endpoint
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.weatherapi.com:80
+DEBUG:urllib3.connectionpool:http://api.weatherapi.com:80 "GET /v1/current.json?key=b124cce078944fed8a564940231008&q=hyderabad%0A,India HTTP/1.1" 200 None
+DEBUG:logger_setup:Inserted document with ID: 64d5fb5b98d09884859121e6
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2023 14:41:55] "GET /weather?country=India&city=hyderabad%0A HTTP/1.1" 200 -
 INFO:logger_setup:Successfully retrieved weather data for India - Hyderabad
-INFO:werkzeug:127.0.0.1 - - [11/Aug/2023 12:17:45] "GET /get_weather_data?country=India&city=Hyderabad HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2023 14:42:04] "GET /get_weather_data?country=India&city=Hyderabad HTTP/1.1" 200 -
+WARNING:logger_setup:No data found for India - chennai
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2023 14:42:17] "[33mGET /get_weather_data?country=India&city=chennai HTTP/1.1[0m" 404 -
+INFO:logger_setup:Successfully retrieved weather data for India - Chennai
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2023 14:42:26] "GET /get_weather_data?country=India&city=Chennai HTTP/1.1" 200 -
