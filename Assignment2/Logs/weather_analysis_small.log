@@ -1,0 +1,16 @@
+2023-08-19 11:53:02 - weather_analysis - INFO - Loading data...
+2023-08-19 11:53:02 - weather_analysis - INFO - Preprocessing data...
+2023-08-19 11:53:02 - weather_analysis - INFO - Forecasting temperature using Prophet...
+2023-08-19 11:53:02 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2023-08-19 11:53:02 - cmdstanpy - DEBUG - Adding TBB (C:\Users\DELL\PycharmProjects\weather\myenv\Lib\site-packages\prophet\stan_model\cmdstan-2.31.0\stan\lib\stan_math\lib\tbb) to PATH
+2023-08-19 11:53:02 - cmdstanpy - DEBUG - input tempfile: C:\Users\DELL\AppData\Local\Temp\tmp6h28l4zm\xpgsdzej.json
+2023-08-19 11:53:02 - cmdstanpy - DEBUG - input tempfile: C:\Users\DELL\AppData\Local\Temp\tmp6h28l4zm\ya8y9p5v.json
+2023-08-19 11:53:02 - cmdstanpy - DEBUG - idx 0
+2023-08-19 11:53:02 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2023-08-19 11:53:02 - cmdstanpy - DEBUG - CmdStan args: ['C:\\Users\\DELL\\PycharmProjects\\weather\\myenv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=35752', 'data', 'file=C:\\Users\\DELL\\AppData\\Local\\Temp\\tmp6h28l4zm\\xpgsdzej.json', 'init=C:\\Users\\DELL\\AppData\\Local\\Temp\\tmp6h28l4zm\\ya8y9p5v.json', 'output', 'file=C:\\Users\\DELL\\AppData\\Local\\Temp\\tmp6h28l4zm\\prophet_model31dysdtm\\prophet_model-20230819115302.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2023-08-19 11:53:02 - cmdstanpy - INFO - Chain [1] start processing
+2023-08-19 11:53:03 - cmdstanpy - INFO - Chain [1] done processing
+2023-08-19 11:53:03 - weather_analysis - INFO - Mean Absolute Error (MAE): 1.5986324331262871
+2023-08-19 11:53:03 - weather_analysis - INFO - Temperature forecasting completed.
+2023-08-19 11:53:03 - weather_analysis - INFO - Weather analysis and accuracy calculation completed.
