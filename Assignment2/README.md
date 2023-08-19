@@ -24,7 +24,9 @@ This Python project performs weather analysis and temperature forecasting using 
     LOG_FILE = Logs/weather_analysis.log
 
 3.Configure logging using logging.conf.
+
 4.Run the analysis script:
+      ```ini
      python main.py
 
 
