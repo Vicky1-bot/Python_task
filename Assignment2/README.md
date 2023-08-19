@@ -15,9 +15,10 @@ This Python project performs weather analysis and temperature forecasting using 
 ## Setup
 
 1. Install required packages:
+   
       pip install -r requirements.txt
 
-2. Create a `config.ini` file:
+3. Create a `config.ini` file:
     ```ini
     [WeatherAnalysis]
     DATA_FILE = path/to/your/weather_data.csv
@@ -26,7 +27,7 @@ This Python project performs weather analysis and temperature forecasting using 
 3.Configure logging using logging.conf.
 
 4.Run the analysis script:
-      ```ini
+
      python main.py
 
 
